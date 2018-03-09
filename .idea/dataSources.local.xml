@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="inventario@localhost" uuid="b7b09229-c348-44e3-978e-17d7b694efcf">
+      <database-info product="PostgreSQL" version="9.2.6" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.1">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+      <introspection-schemas>inventario:public</introspection-schemas>
+    </data-source>
+    <data-source name="percistence.cgf.xml/Hibernate" uuid="fb3a533c-8fd2-487e-97ca-0f248c13f264">
+      <database-info product="PostgreSQL" version="9.2.6" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.1">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <user-name>postgres</user-name>
+      <introspection-schemas>inventario:public</introspection-schemas>
+    </data-source>
+  </component>
+</project>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="connection.url">jdbc:postgresql://localhost:5432/inventario</property>
+    <property name="connection.driver_class">org.postgresql.Driver</property>
+      <mapping class="com.controlInv.model.Actividades"/>
+      <mapping class="com.controlInv.model.Aportes"/>
+      <mapping class="com.controlInv.model.Cargo"/>
+      <mapping class="com.controlInv.model.ControlMp"/>
+      <mapping class="com.controlInv.model.Estado"/>
+      <mapping class="com.controlInv.model.Factura"/>
+      <mapping class="com.controlInv.model.Gastos"/>
+      <mapping class="com.controlInv.model.Grupo"/>
+      <mapping class="com.controlInv.model.ListaGrupo"/>
+      <mapping class="com.controlInv.model.ListaPrecios"/>
+      <mapping class="com.controlInv.model.MateriaPrima"/>
+      <mapping class="com.controlInv.model.Modulo"/>
+      <mapping class="com.controlInv.model.Multas"/>
+      <mapping class="com.controlInv.model.Persona"/>
+      <mapping class="com.controlInv.model.ProdExtra"/>
+      <mapping class="com.controlInv.model.Producto"/>
+      <mapping class="com.controlInv.model.Recepcionistas"/>
+      <mapping class="com.controlInv.model.Socio"/>
+      <mapping class="com.controlInv.model.TablaDistr"/>
+      <mapping class="com.controlInv.model.TipoAporte"/>
+      <mapping class="com.controlInv.model.TipoPago"/>
+      <mapping class="com.controlInv.model.TipoVenta"/>
+      <mapping class="com.controlInv.model.Ventas"/>
+      <!-- <property name="connection.username"/> -->
+    <!-- <property name="connection.password"/> -->
+
+    <!-- DB schema will be updated if needed -->
+    <!-- <property name="hbm2ddl.auto">update</property> -->
+  </session-factory>
+</hibernate-configuration>
